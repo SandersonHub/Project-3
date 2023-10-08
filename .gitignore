@@ -46,3 +46,5 @@ jspm_packages/
 # IDE/Editor folders
 .idea/
 .vscode/
+node_modules
+
