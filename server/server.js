@@ -2,9 +2,8 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
-const { graphqlHTTP } = require('express-graphql');
-const schema = require('./graphql/schema');
-const authMiddleware = require('./middlewares/authMiddleware');
+const schema = require('./schemas/schema');
+const authMiddleware = require('./utils/authMiddleware');
 
 const app = express();
 
