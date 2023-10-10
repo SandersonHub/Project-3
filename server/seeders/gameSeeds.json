@@ -1,62 +1,71 @@
 [
     {
-        "title": "Halo Infinite",
-        "Platform": "Xbox Series X"
+        "name": "Halo Infinite",
+        "consoletype": "Xbox Series X"
     },
     {
-        "title": "Forza Horizon 5",
-        "platform": "Xbox"
+        "name": "Super Mario Odyssey",
+        "consoleType": "Switch"
     },
     {
-        "title": "Fable",
-        "platform": "Xbox"
+        "name": "Halo Infinite",
+        "consoleType": "Xbox"
     },
     {
-        "title": "Psychonauts 2",
-        "platform": "Xbox"
+        "name": "Demon's Souls",
+        "consoleType": "PS5"
     },
     {
-        "title": "Back 4 Blood",
-        "platform": "Xbox"
+        "name": "Fable",
+        "consoletype": "Xbox"
     },
     {
-        "title": "God of War Ragnarok",
-        "platform": "PS5"
+        "name": "Psychonauts 2",
+        "consoletype": "Xbox"
     },
     {
-        "title": "Spider-Man: Miles Morales",
-        "platform": "PS5"
+        "name": "Back 4 Blood",
+        "consoletype": "Xbox"
     },
     {
-        "title": "Ratchet & Clank: Rift Apart",
-        "platform": "PS5"
+        "name": "God of War Ragnarok",
+        "consoletype": "PS5"
     },
     {
-        "title": "Ghost of Tsushima",
-        "platform": "PS5"
+        "name": "Spider-Man: Miles Morales",
+        "consoletype": "PS5"
     },
     {
-        "title": "Horizon Forbidden West",
-        "platform": "PS5"
+        "name": "Ratchet & Clank: Rift Apart",
+        "consoletype": "PS5"
     },
     {
-        "title": "The Legend of Zelda: Breath of the Wild",
-        "platform": "Nintendo Switch"
+        "name": "Ghost of Tsushima",
+        "consoletype": "PS5"
     },
     {
-        "title": "Animal Crossing: New Horizons",
-        "platform": "Nintendo Switch"
+        "name": "Horizon Forbidden West",
+        "consoletype": "PS5"
     },
     {
-        "title": "Super Smash Bros. Ultimate",
-        "platform": "Nintendo Switch"
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "consoletype": "Switch"
     },
     {
-        "title": "Mario Kart 8 Deluxe",
-        "platform": "Nintendo Switch"
+        "name": "Animal Crossing: New Horizons",
+        "consoletype": "Switch"
     },
     {
-        "title": "Splatoon 2",
-        "platform": "Nintendo Switch"
+        "name": "Super Smash Bros. Ultimate",
+        "consoletype": "Switch"
+    },
+    {
+        "name": "Mario Kart 8 Deluxe",
+        "consoletype": "Switch"
+    },
+    {
+        "name": "Splatoon 2",
+        "consoletype": "Nintendo Switch"
     }
+
 ]
