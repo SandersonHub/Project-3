@@ -23,7 +23,7 @@ const Home = () => {
                                     <h5 className="card-title">
                                         XBox
                                     </h5>
-                                    <img src="Xbox_Logo.svg" className='w-100' />
+                                    <img src="xbox-icon.png" className='w-100' />
                                     <Link to="/">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
