@@ -1,16 +1,15 @@
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
-  enum ConsoleType {
-    Xbox
-    PS5
-    Switch
+  type Console {
+    id: ID!
+    name: String!
   }
 
   type Game {
     id: ID!
     name: String!
-    consoleType: ConsoleType!
+    console: Console!
   }
 
   type User {
@@ -19,14 +18,20 @@ const typeDefs = gql`
     favoriteGames: [Game]
   }
 
+  input ConsoleInput {
+    id: ID!
+    name: String
+  }
+
   type Query {
-    games(consoleType: ConsoleType!): [Game]
+    game(id: ID!): Game
+    games(console: ConsoleInput): [Game]
     userFavorites(userId: ID!): [Game]
   }
 
   type Mutation {
-    addGame(name: String!, consoleType: ConsoleType!): Game
-    updateGame(id: ID!, name: String, consoleType: ConsoleType): Game
+    addGame(name: String!, console: ConsoleInput): Game
+    updateGame(id: ID!, name: String, console: ConsoleInput): Game
     deleteGame(id: ID!): ID
     addFavorite(userId: ID!, gameId: ID!): User
     removeFavorite(userId: ID!, gameId: ID!): User
