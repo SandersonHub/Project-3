@@ -4,10 +4,10 @@ const typeDefs = gql`
   type Game {
     _id: ID!
     name: String!
-    console: GameConsole
+    console: Console
   }
 
-  type GameConsole {
+  type Console {
     _id: ID!
     name: String!
   }
@@ -19,8 +19,9 @@ const typeDefs = gql`
   }
 
   type Query {
+    game(id: ID!): Game
     games: [Game]
-    gameConsoles: [GameConsole]
+    Consoles: [Console]
     users: [User]
   }
 `;

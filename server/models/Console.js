@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const gameConsoleSchema = new mongoose.Schema({
+const consoleSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -9,4 +9,6 @@ const gameConsoleSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('GameConsole', gameConsoleSchema);
+const Console = mongoose.model('Console', consoleSchema);
+
+module.exports = Console;
