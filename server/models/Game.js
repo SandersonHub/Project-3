@@ -3,4 +3,6 @@ const mongoose = require('mongoose');
 const gameSchema = new mongoose.Schema({
 });
 
-module.exports = mongoose.model('Game', gameSchema);
+const Game = mongoose.model('Game', gameSchema);
+
+module.exports = Game;
