@@ -25,21 +25,21 @@ export const ADD_USER = gql`
 `;
 
 export const SAVE_GAME = gql`
-    mutation saveGame($_id: ID!, $name: String!, $console: GameConsole) {
-        saveGame(_id: $_id, name: $name, console: $console) {
+    mutation saveGame($_id: ID!, $name: String!, $consoleType: String!) {
+        saveGame(_id: $_id, name: $name, consoleType: $consoleType) {
             _id
             name
-            console
+            consoleType
         }
     }
 `;
 
 export const REMOVE_GAME = gql`
-    mutation removeGame($_id: ID!, $name: String!, $console: GameConsole) {
-        saveGame(_id: $_id, name: $name, console: $console) {
+    mutation removeGame($_id: ID!, $name: String!, $consoleType: String!) {
+        removeGame(_id: $_id, name: $name, consoleType: $consoleType) {
             _id
             name
-            console
+            consoleType
         }
     }
 `;
