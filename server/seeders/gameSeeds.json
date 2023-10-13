@@ -1,7 +1,7 @@
 [
     {
         "name": "Halo Infinite",
-        "consoletype": "Xbox Series X"
+        "consoleType": "Xbox Series X"
     },
     {
         "name": "Super Mario Odyssey",
@@ -17,55 +17,55 @@
     },
     {
         "name": "Fable",
-        "consoletype": "Xbox"
+        "consoleType": "Xbox"
     },
     {
         "name": "Psychonauts 2",
-        "consoletype": "Xbox"
+        "consoleType": "Xbox"
     },
     {
         "name": "Back 4 Blood",
-        "consoletype": "Xbox"
+        "consoleType": "Xbox"
     },
     {
         "name": "God of War Ragnarok",
-        "consoletype": "PS5"
+        "consoleType": "PS5"
     },
     {
         "name": "Spider-Man: Miles Morales",
-        "consoletype": "PS5"
+        "consoleType": "PS5"
     },
     {
         "name": "Ratchet & Clank: Rift Apart",
-        "consoletype": "PS5"
+        "consoleType": "PS5"
     },
     {
         "name": "Ghost of Tsushima",
-        "consoletype": "PS5"
+        "consoleType": "PS5"
     },
     {
         "name": "Horizon Forbidden West",
-        "consoletype": "PS5"
+        "consoleType": "PS5"
     },
     {
         "name": "The Legend of Zelda: Breath of the Wild",
-        "consoletype": "Switch"
+        "consoleType": "Switch"
     },
     {
         "name": "Animal Crossing: New Horizons",
-        "consoletype": "Switch"
+        "consoleType": "Switch"
     },
     {
         "name": "Super Smash Bros. Ultimate",
-        "consoletype": "Switch"
+        "consoleType": "Switch"
     },
     {
         "name": "Mario Kart 8 Deluxe",
-        "consoletype": "Switch"
+        "consoleType": "Switch"
     },
     {
         "name": "Splatoon 2",
-        "consoletype": "Nintendo Switch"
+        "consoleType": "Switch"
     }
 
 ]
