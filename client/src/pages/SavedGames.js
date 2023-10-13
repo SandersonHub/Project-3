@@ -3,14 +3,14 @@ import React from 'react';
 //import useQuery hook from @apollo/client
 import { useQuery } from '@apollo/client';
 //import QUERY_ME from utils/queries
-import { QUERY_ME } from '../utils/queries';
+import { QUERY_USER } from '../utils/queries';
 //import Auth from utils/auth
 import Auth from '../utils/auth';
 
 //create SavedGames functional component
 const SavedGames = () => {
     //use useQuery to make a request
-    const { loading, data } = useQuery(QUERY_ME);
+    const { loading, data } = useQuery(QUERY_USER);
     //create userData variable and set it to data.me
     // "?" checks if the object is null or undefined if not it attempts to access data.me
     const userData = data?.me || {};
@@ -54,3 +54,5 @@ const SavedGames = () => {
         </>
     );
 };
+
+export default SavedGames;

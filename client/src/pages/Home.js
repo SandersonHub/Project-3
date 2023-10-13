@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
-import { QUERY_CONSOLES } from '../utils/queries';
+import { QUERY_CONSOLE } from '../utils/queries';
 
 const Home = () => {
-    const { loading, data } = useQuery(QUERY_CONSOLES, {
-        fetchPolicy: "no-cache"
-    });
+    // const { loading, data } = useQuery(QUERY_CONSOLE, {
+    //     fetchPolicy: "no-cache"
+    // });
 
-    const consoleList = data?.consoles || [];
+    // const consoleList = data?.console || [];
 
     return (
         <div className="card bg-white card-rounded w-50">
