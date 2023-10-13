@@ -36,7 +36,7 @@ export const SAVE_GAME = gql`
 
 export const REMOVE_GAME = gql`
     mutation removeGame($_id: ID!, $name: String!, $consoleType: String!) {
-        saveGame(_id: $_id, name: $name, consoleType: $consoleType) {
+        removeGame(_id: $_id, name: $name, consoleType: $consoleType) {
             _id
             name
             consoleType
