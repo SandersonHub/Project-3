@@ -57,7 +57,27 @@ Describe development challenges here.
 
 ## Future Improvements
 
-Outline any features or enhancements we plan to add.
+Exciting enhancements are planned for Just Pass Games to elevate your gaming experience:
+
+### 1. User Shopping Cart and Checkout System
+
+Implement a user-friendly shopping cart allowing batch purchases and seamless checkouts for games in the favorites list.
+
+### 2. Payment Gateway Integration
+
+Integrate a secure payment gateway to support various payment methods, ensuring secure transactions for game purchases.
+
+### 3. Game Reviews and Ratings
+
+Enable users to leave reviews and ratings for games.
+
+### 4. Advanced Game Filtering
+
+Implement advanced filters for games, allowing users to sort and search based on genres, release dates, and user ratings.
+
+### 5. Social Features
+
+Introduce social features such as user profiles and friend requests.
 
 ## License
 
