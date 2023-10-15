@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useQuery } from '@apollo/client';
-import { QUERY_CONSOLE } from '../utils/queries';
+// import { useQuery } from '@apollo/client';
+// import { QUERY_CONSOLE } from '../utils/queries';
 
 const Home = () => {
     // const { loading, data } = useQuery(QUERY_CONSOLE, {
@@ -10,7 +10,7 @@ const Home = () => {
     // const consoleList = data?.console || [];
 
     return (
-        <div className="card bg-white card-rounded w-50">
+        <div className="card bg-white card-rounded w-100">
             <div className="card-header bg-dark text-center">
                 <h1>Welcome to Just PA$$ Games</h1>
             </div>
@@ -24,7 +24,7 @@ const Home = () => {
                                         XBox
                                     </h5>
                                     <img src="xbox-icon.png" className='w-100' />
-                                    <Link to="/">
+                                    <Link to="/xbox">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
                                 </div>
@@ -37,7 +37,7 @@ const Home = () => {
                                         Playstation
                                     </h5>
                                     <img src="playstation-logo.png" className='w-100' />
-                                    <Link to="/">
+                                    <Link to="/playstation">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
                                 </div>
@@ -50,7 +50,7 @@ const Home = () => {
                                         Switch
                                     </h5>
                                     <img src="switch.png" className='w-100' />
-                                    <Link to="/">
+                                    <Link to="/switch">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
                                 </div>
