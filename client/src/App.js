@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import SavedGames from './pages/SavedGames';
 import NotFound from './pages/NotFound';
 import AppNavBar from './components/AppNavbar';
+import Xbox from './pages/Xbox';
+import Playstation from './pages/Playstation';
+import Switch from './pages/Switch';
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -21,6 +24,18 @@ function App() {
               <Route 
                 path="/" 
                 element={<Home />}
+              />
+              <Route 
+                path="/xbox" 
+                element={<Xbox />}
+              />
+              <Route 
+                path="/playstation" 
+                element={<Playstation />}
+              />
+              <Route 
+                path="/switch" 
+                element={<Switch />}
               />
               <Route 
                 path="/saved" 
