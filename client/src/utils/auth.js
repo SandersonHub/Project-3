@@ -46,4 +46,5 @@ class AuthService {
   }
 }
 
+//whats wrong with this?
 export default new AuthService();

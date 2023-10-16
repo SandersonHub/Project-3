@@ -24,9 +24,8 @@ const gameSchema = new mongoose.Schema({
     },
 });
 
-// creates the model for schema and then it will export it
-const Game = mongoose.model('Game', gameSchema);
-
-// exports the Game model and gameSchema
-module.exports = {Game, gameSchema,};
+module.exports = {
+    Game: mongoose.model('Game', gameSchema),
+    gameSchema,
+};
 

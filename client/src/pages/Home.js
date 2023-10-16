@@ -23,7 +23,7 @@ const Home = () => {
                                     <h5 className="card-title">
                                         XBox
                                     </h5>
-                                    <img src="xbox-icon.png" className='w-100' />
+                                    <img src="xbox-icon.png" alt="Xbox logo" className='w-100' />
                                     <Link to="/xbox">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
@@ -36,7 +36,7 @@ const Home = () => {
                                     <h5 className="card-title">
                                         Playstation
                                     </h5>
-                                    <img src="playstation-logo.png" className='w-100' />
+                                    <img src="playstation-logo.png" alt="Playstation logo" className='w-100' />
                                     <Link to="/playstation">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
@@ -49,7 +49,7 @@ const Home = () => {
                                     <h5 className="card-title">
                                         Switch
                                     </h5>
-                                    <img src="switch.png" className='w-100' />
+                                    <img src="switch.png" alt="Switch logo" className='w-100' />
                                     <Link to="/switch">
                                         <button className="btn btn-lg">GAMES</button>
                                     </Link>
