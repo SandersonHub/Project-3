@@ -17,14 +17,15 @@ const gameSchema = new mongoose.Schema({
             required: true,
         }
     },
-    image: { //added images for each game
+    image: { 
         type: String,
         required: false,
         trim: true,
     },
 });
 
-const Game = mongoose.model('Game', gameSchema);
-
-module.exports = { Game, gameSchema };
+module.exports = {
+    Game: mongoose.model('Game', gameSchema),
+    gameSchema,
+};
 
