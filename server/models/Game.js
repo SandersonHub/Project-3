@@ -17,14 +17,16 @@ const gameSchema = new mongoose.Schema({
             required: true,
         }
     },
-    image: { //added images for each game
+    image: { 
         type: String,
         required: false,
         trim: true,
     },
 });
 
+// creates the model for schema and then it will export it
 const Game = mongoose.model('Game', gameSchema);
 
-module.exports = { Game, gameSchema };
+// exports the Game model and gameSchema
+module.exports = {Game, gameSchema,};
 

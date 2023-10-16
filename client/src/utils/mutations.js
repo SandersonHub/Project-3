@@ -1,5 +1,6 @@
 import { gql } from '@apollo/client';
 
+// log in a user
 export const LOGIN_USER = gql`
   mutation login($email: String!, $password: String!) {
     login(email: $email, password: $password) {
@@ -12,6 +13,7 @@ export const LOGIN_USER = gql`
   }
 `;
 
+// add a new user
 export const ADD_USER = gql`
   mutation addUser($username: String!, $email: String!, $password: String!) {
     addUser(username: $username, email: $email, password: $password) {
@@ -24,22 +26,38 @@ export const ADD_USER = gql`
   }
 `;
 
-export const SAVE_GAME = gql`
-    mutation saveGame($_id: ID!, $name: String!, $consoleType: String!) {
-        saveGame(_id: $_id, name: $name, consoleType: $consoleType) {
-            _id
-            name
-            consoleType
-        }
+//  add a game
+export const ADD_GAME = gql`
+  mutation addGame($name: String!, $console: ConsoleInput!) {
+    addGame(name: $name, console: $console) {
+      id
+      name
+      console {
+        id
+        name
+      }
     }
+  }
 `;
 
-export const REMOVE_GAME = gql`
-    mutation removeGame($_id: ID!, $name: String!, $consoleType: String!) {
-        removeGame(_id: $_id, name: $name, consoleType: $consoleType) {
-            _id
-            name
-            consoleType
-        }
+// update a game
+export const UPDATE_GAME = gql`
+  mutation updateGame($id: ID!, $name: String, $console: ConsoleInput) {
+    updateGame(id: $id, name: $name, console: $console) {
+      id
+      name
+      console {
+        id
+        name
+      }
     }
+  }
 `;
+
+// remove a game
+export const REMOVE_GAME = gql`
+  mutation removeGame($id: ID!) {
+    removeGame(id: $id) 
+  }
+`;
+
