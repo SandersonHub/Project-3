@@ -33,11 +33,11 @@ const SavedGames = () => {
         //<> this will allow the user to group several elements without adding extra nodes to the DOM
         <>
         <h2>
-            {userData.savedGames.length //if userData.savedGames.length is greater than 0 return what is shown below
+            {userData.savedGames?.length //if userData.savedGames.length is greater than 0 return what is shown below
             ? `Viewing ${userData.savedGames.length} saved ${userData.savedGames.length === 1 ? 'game' : 'games'}:` //if userData.savedGames.length is equal to 1 return 'game' else return 'games' 
             : 'You have no saved games!'}
         </h2>
-        {userData.savedGames.map((game) => { //map over the savedGames array and return what is shown below 
+        {userData.savedGames?.map((game) => { //map over the savedGames array and return what is shown below 
             return (
             <div key={game.gameId} className='card mb-3'>
                 <p className='card-header'>
