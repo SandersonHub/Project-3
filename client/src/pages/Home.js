@@ -11,17 +11,17 @@ const Home = () => {
 
     return (
         <div className="card bg-white card-rounded w-100">
-            <div className="card-header bg-dark text-center">
-                <h1>Welcome to Just PA$$ Games</h1>
+            <div className="card-header bg-light text-center">
+                <h1>Welcome to Just Pass Games</h1>
             </div>
             <div className="card-body m-5">
-                <h2>Choose a gaming console</h2>
+                <h2>Choose a Gaming Console!</h2>
                     <div className="row m-3">
                         <div className="col-sm-4 mb-3 mb-sm-0">
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                        XBox
+                                        Xbox Series X
                                     </h5>
                                     <img src="xbox-icon.png" alt="Xbox logo" className='w-100' />
                                     <Link to="/xbox">
@@ -34,7 +34,7 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                        Playstation
+                                        Playstation 5
                                     </h5>
                                     <img src="playstation-logo.png" alt="Playstation logo" className='w-100' />
                                     <Link to="/playstation">
@@ -47,7 +47,7 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                        Switch
+                                        Nintendo Switch
                                     </h5>
                                     <img src="switch.png" alt="Switch logo" className='w-100' />
                                     <Link to="/switch">
