@@ -1,11 +1,13 @@
 [
     {
         "name": "Halo Infinite",
-        "consoleType": "Xbox Series X"
+        "consoleType": "Xbox Series X",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_e695aaa6-01f6-4af5-b4b5-e96ce8092497?wid=1200&hei=1200&qlt=80&fmt=webp"
     },
     {
         "name": "Assassing Creed Valhalla",
-        "consoleType": "Xbox Series X"
+        "consoleType": "Xbox Series X",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_c5fb8c7f-e40f-43ad-8833-5561f30a379f?wid=1200&hei=1200&qlt=80&fmt=webp"
     },
     {
         "name": "Fable",
