@@ -14,6 +14,7 @@ const SavedGames = () => {
     //create userData variable and set it to data.me
     // "?" checks if the object is null or undefined if not it attempts to access data.me
     const userData = data?.me || {};
+    console.log(userData);
     //if user is not logged in return return below what is in <h4>
     if (!Auth.loggedIn()) {
         return (

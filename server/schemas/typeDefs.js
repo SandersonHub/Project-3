@@ -33,7 +33,8 @@ const typeDefs = gql`
   type Query {
     game(id: ID!): Game
     games(console: ConsoleInput): [Game]
-    userFavorites(userId: ID!): [Game]           
+    userFavorites(userId: ID!): [Game]   
+    users: [User]        
   }
 
   type Mutation {
