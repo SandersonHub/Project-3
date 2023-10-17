@@ -16,7 +16,11 @@ const resolvers = {
 
     // retrieve all games
     games: async (parent, args, context) => {
-      return Game.find();
+      return Game.find().populate("console");
+    },
+    console: async (parent, args) => {
+      console.log(args);
+      return await Game.find({ console: args.consoleType }).populate("console");
     },
   },
 
@@ -67,12 +71,6 @@ const resolvers = {
 
       const token = signToken(user);
       return { token, user };
-    },
-  },
-
-  Game: {
-    console: async (parent) => {
-      return await Console.findById(parent.consoleId);
     },
   },
 };

@@ -3,10 +3,13 @@ import { gql } from '@apollo/client';
 // Query to fetch games based on a specific console type
 export const QUERY_CONSOLE = gql`
     query console($consoleType: String!) {
-        games(consoleType: $consoleType) {
+        console(consoleType: $consoleType) {
             _id
             name
-            consoleType
+            console {
+                name
+                _id
+            }
         }
     }
 `;
@@ -18,8 +21,8 @@ export const QUERY_GAME = gql`
             _id
             name
             console {
+                name
                 _id
-                consoleType
             }
         }
     }
@@ -36,8 +39,8 @@ export const QUERY_USER = gql`
                 _id
                 name
                 console {
+                    name
                     _id
-                    consoleType
                 }
             }
         }

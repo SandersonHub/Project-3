@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+const { consoleSchema } = require('./Console');
+const { Schema } = mongoose;
 
 const gameSchema = new mongoose.Schema({
     name: {
@@ -6,15 +8,9 @@ const gameSchema = new mongoose.Schema({
         required: false,
     },
     console: {
-        id: {
-            type: String,
-            required: true,
-            trim: true
-        },
-        name: {
-            type: String,
-            required: true,
-        }
+        type: Schema.Types.ObjectId,
+        ref: 'Console',
+        required: true
     },
     image: { 
         type: String,
