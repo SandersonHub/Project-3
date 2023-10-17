@@ -21,7 +21,7 @@ const PlayStation = () => {
 
     // extracting the games data from the query
     const games = data?.games || [];
-
+    console.log(data);
     // Rendering the list of games for the "PS5" console.
     return (
         <div>

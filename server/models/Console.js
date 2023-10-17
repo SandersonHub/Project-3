@@ -4,11 +4,13 @@ const consoleSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
-        unique: true,
         trim: true
     }
 });
 
 const Console = mongoose.model('Console', consoleSchema);
 
-module.exports = Console;
+module.exports = {
+    Console,
+    consoleSchema,
+};
