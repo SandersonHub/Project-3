@@ -20,7 +20,7 @@ const PlayStation = () => {
     }
 
     // extracting the games data from the query
-    const games = data?.games || [];
+    const games = data?.games.filter(game => game.console !== null) || [];
     console.log(data);
     // Rendering the list of games for the "PS5" console.
     return (
