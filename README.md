@@ -84,8 +84,11 @@ Introduce social features such as user profiles and friend requests.
 This project is using the MIT License.
 
 ## Screenshots
-![Screenshot 1](#)
-![Screenshot 2](#)
+![chrome_635mef1xHn](https://github.com/SandersonHub/Project-3/assets/128574459/2e8d2ad2-1af8-4836-bd04-cf0debe44f56)
+![chrome_jiBA7HenCE](https://github.com/SandersonHub/Project-3/assets/128574459/931efded-64e4-4fcd-9855-62b2c3e62830)
+![chrome_qDFYHRHmJl](https://github.com/SandersonHub/Project-3/assets/128574459/bf98404c-07a0-4435-a20e-b827ac258e25)
+
+
 
 ## Credits
 
