@@ -21,7 +21,7 @@ const Home = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                        Xbox Series X
+                                        XBOX Series X
                                     </h5>
                                     <img src="xbox-icon.png" alt="Xbox logo" className='w-100' />
                                     <Link to="/xbox">
