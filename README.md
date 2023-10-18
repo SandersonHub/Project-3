@@ -31,7 +31,10 @@ We created this project to provide users with a seamless experience for explorin
 
 ## Installation
 
-N/A
+1. Download the code to your favorite coding applicaiton.
+2. Run "NPM Run Seed"
+3. Run "NPM Run Develop"
+4. Finished!
 
 ## Usage
 
