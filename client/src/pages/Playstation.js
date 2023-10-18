@@ -26,7 +26,7 @@ const PlayStation = () => {
     return (
         <>
     <div className="card-deck bg-white card-rounded w-100">
-      <h1>Nintendo Switch Games</h1>
+      <h1>PlayStation 5 Games</h1>
       {games.length ? (
           games.map((game) => 
             // <div className="card-body m-5">
