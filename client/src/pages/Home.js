@@ -25,7 +25,7 @@ const Home = () => {
                                     </h5>
                                     <img src="xbox-icon.png" alt="Xbox logo" className='w-100' />
                                     <Link to="/xbox">
-                                        <button className="btn btn-lg">GAMES</button>
+                                        <button className="btn btn-primary">GAMES</button>
                                     </Link>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ const Home = () => {
                                     </h5>
                                     <img src="playstation-logo.png" alt="Playstation logo" className='w-100' />
                                     <Link to="/playstation">
-                                        <button className="btn btn-lg">GAMES</button>
+                                        <button className="btn btn-primary">GAMES</button>
                                     </Link>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const Home = () => {
                                     </h5>
                                     <img src="switch.png" alt="Switch logo" className='w-100' />
                                     <Link to="/switch">
-                                        <button className="btn btn-lg">GAMES</button>
+                                        <button className="btn btn-primary">GAMES</button>
                                     </Link>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const Home = () => {
             <div className="card-footer text-center m-3">
                 <h2>View Saved Games</h2>
                 <Link to="/saved">
-                    <button className="btn btn-lg btn-danger">Saved Games</button>
+                    <button className="btn btn-primary">Saved Games</button>
                 </Link>
             </div>
         </div>

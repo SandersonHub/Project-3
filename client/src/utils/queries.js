@@ -16,6 +16,7 @@ export const QUERY_CONSOLE = gql`
         games {
             _id
             name
+            image
             console {
                 name
             }
