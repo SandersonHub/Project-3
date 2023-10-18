@@ -10,6 +10,7 @@ const typeDefs = gql`
     _id: ID!
     name: String!
     console: Console
+    image: String
   }
 
   type Auth {

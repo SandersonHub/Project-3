@@ -23,22 +23,33 @@ const Xbox = () => {
     const games = data?.games || [];
 
     // renders the list of games for the "Xbox Series X"
-    return (
-        <div>
-            <h1>Xbox Games</h1>
-            {games.length ? (
-                <div>
-                    {games.map((game) => (
-                        <div key={game._id}>
-                            <h3>{game.name}</h3>
+    return (<>
+        <div className="card-deck bg-white card-rounded w-100">
+          <h1>Nintendo Switch Games</h1>
+          {games.length ? (
+              games.map((game) => 
+                // <div className="card-body m-5">
+                    <div className="d-flex row m-3">
+                        {/* <div className="col-sm-4 mb-3 mb-sm-0"> */}
+                            <div className="card" style={{width: "18rem"}}>
+                                <div className="card-body">
+                                    <h5 className="card-title">
+                                        {game.name}
+                                    </h5>
+                                    <img src={`${game?.image}`} className='w-100' />
+                                        <button className="btn btn-primary">Save Game</button>                               
+                                </div>
+                            {/* </div> */}
                         </div>
-                    ))}
-                </div>
-            ) : (
-                <h4>No games found for Xbox</h4>
-            )}
+                        </div>
+                        // </div>
+                        )
+          ) : (
+            <h4>No games available for this console</h4>
+          )}
         </div>
-    );
+        </>
+      );
 };
 
 export default Xbox;
