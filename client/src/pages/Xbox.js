@@ -36,7 +36,7 @@ const Xbox = () => {
                                     <h5 className="card-title">
                                         {game.name}
                                     </h5>
-                                    <img src={`${game?.image}`} className='w-100' />
+                                    {game.image && <img src={`${game.image}`} alt={game.name} className='w-100' />}
                                         <button className="btn btn-primary">Save Game</button>                               
                                 </div>
                             {/* </div> */}
