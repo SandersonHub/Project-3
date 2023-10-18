@@ -35,7 +35,7 @@ N/A
 
 ## Usage
 
-Simply visit our webpage: [HEROKU LINK](#) <br>
+Simply visit our webpage: https://just-pass-games-e7c574af99fd.herokuapp.com/ <br>
 It can be used to save and favorite your beloved video games! <br>
 
 ## Contributions
