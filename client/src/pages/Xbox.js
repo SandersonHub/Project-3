@@ -20,7 +20,7 @@ const Xbox = () => {
     }
 
     // extracting the games data from the query response.
-    const games = data?.games || [];
+    const games = data?.games.filter(game => game.console !== null) || [];
 
     // renders the list of games for the "Xbox Series X"
     return (<>
