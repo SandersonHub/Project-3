@@ -2,64 +2,77 @@
     {
         "name": "Halo Infinite",
         "consoleType": "Xbox Series X",
-        "image": "https://target.scene7.com/is/image/Target/GUEST_e695aaa6-01f6-4af5-b4b5-e96ce8092497?wid=1200&hei=1200&qlt=80&fmt=webp"
+        "image": "https://target.scene7.com/is/image/Target/GUEST_e695aaa6-01f6-4af5-b4b5-e96ce8092497?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Assassins Creed Valhalla",
         "consoleType": "Xbox Series X",
-        "image": "https://target.scene7.com/is/image/Target/GUEST_c5fb8c7f-e40f-43ad-8833-5561f30a379f?wid=1200&hei=1200&qlt=80&fmt=webp"
+        "image": "https://target.scene7.com/is/image/Target/GUEST_c5fb8c7f-e40f-43ad-8833-5561f30a379f?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
-        "name": "Fable",
-        "consoleType": "Xbox Series X"
+        "name": "Hogwarts Legacy",
+        "consoleType": "Xbox Series X",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_40b0e771-798b-4d5f-b425-90ede3da869e?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Psychonauts 2",
-        "consoleType": "Xbox Series X"
+        "consoleType": "Xbox Series X",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_dcb29a99-b889-4d14-b663-d86b460fa04b?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Back 4 Blood",
-        "consoleType": "Xbox Series X"
+        "consoleType": "Xbox Series X",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_30c83419-eb6d-4f6c-9939-8df457b9b96f?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "God of War Ragnarok",
-        "consoleType": "PS5"
+        "consoleType": "PS5",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_c7637d2c-72df-45e8-b746-96cf10d8287d?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Spider-Man: Miles Morales",
-        "consoleType": "PS5"
+        "consoleType": "PS5",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_6c110700-ae27-43a9-8fac-f79576cee8de?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Ratchet & Clank: Rift Apart",
-        "consoleType": "PS5"
+        "consoleType": "PS5",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_10db3e92-d3d2-48eb-8695-90358bd5f62a?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
-        "name": "Ghost of Tsushima",
-        "consoleType": "PS5"
+        "name": "Ghost of Tsushima: Director's Cut",
+        "consoleType": "PS5",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_e5597040-8517-4848-92c7-32e3028499aa?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Horizon Forbidden West",
-        "consoleType": "PS5"
+        "consoleType": "PS5",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_d397e317-4ad8-42f6-937e-f84312b0e0cc?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "The Legend of Zelda: Breath of the Wild",
-        "consoleType": "Switch"
+        "consoleType": "Switch",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_e97f4ca6-9e20-4e34-ae64-1ac42d0d394c?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Animal Crossing: New Horizons",
-        "consoleType": "Switch"
+        "consoleType": "Switch",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_83f32699-98bf-49e0-903a-1eede0c034e8?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Super Smash Bros. Ultimate",
-        "consoleType": "Switch"
+        "consoleType": "Switch",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_b26ea68d-b0c3-4f30-a67a-4182b17841f3?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
-        "name": "Mario Kart 8 Deluxe",
-        "consoleType": "Switch"
+        "name": "Mario Golf: Super Rush",
+        "consoleType": "Switch",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_01fe99f2-a024-48f3-96db-81bfc3eb74cb?wid=800&hei=800&qlt=80&fmt=webp"
     },
     {
         "name": "Splatoon 2",
-        "consoleType": "Switch"
+        "consoleType": "Switch",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_9382109e-285f-4631-adaa-225fe82754e1?wid=800&hei=800&qlt=80&fmt=webp"
     }
 
 ]
