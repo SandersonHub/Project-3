@@ -19,7 +19,7 @@ Our application offers a secure environment where users can explore a vast selec
 
 ## Description
 
-We created this project to provide users with a seamless experience for exploring and saving their favorite video games. With a user-friendly interface and a wide range of available titles, Just Pass Games is your go-to platform for gaming enthusiasts.
+We created this project to provide users with a seamless experience for exploring and saving their favorite video games. With a user-friendly interface and variety of available titles, Just Pass Games is your go-to platform for gaming enthusiasts.
 
 ## Technologies Used
 
@@ -31,14 +31,14 @@ We created this project to provide users with a seamless experience for explorin
 
 ## Installation
 
-1. Download the code to your favorite coding applicaiton.
-2. Run "NPM Run Seed"
-3. Run "NPM Run Develop"
-4. Finished!
+1. Clone the repository to your local machine: `git clone <repository-url>`
+2. Navigate to the project directory and install the necessary dependencies: `cd <project-folder>` and then `npm run install`
+3. Seed the database using MongoDB: `npm run seed`
+4. Run the project in development mode: `npm run develop`
 
 ## Usage
 
-Simply visit our webpage: https://just-pass-games-e7c574af99fd.herokuapp.com/ <br>
+Simply visit our webpage: [Heroku Link](https://just-pass-games-e7c574af99fd.herokuapp.com/) <br>
 It can be used to save and favorite your beloved video games! <br>
 
 ## Contributions
@@ -56,7 +56,7 @@ It can be used to save and favorite your beloved video games! <br>
 
 ## Challenges Faced
 
-Describe development challenges here.
+One of the most significant hurdles we faced during development was the implementation of CRUD operations for saved games. A specific challenge arose with the "save button" functionality, which proved difficult to integrate successfully. Despite our efforts, we encountered persistent issues, preventing us from achieving the desired outcome. This challenge highlighted the intricate dependencies within our codebase and the importance of seamless integration between various components.
 
 ## Future Improvements
 
@@ -64,23 +64,23 @@ Exciting enhancements are planned for Just Pass Games to elevate your gaming exp
 
 ### 1. User Shopping Cart and Checkout System
 
-Implement a user-friendly shopping cart allowing batch purchases and seamless checkouts for games in the favorites list.
+- Implement a user-friendly shopping cart allowing batch purchases and seamless checkouts for games in the favorites list.
 
 ### 2. Payment Gateway Integration
 
-Integrate a secure payment gateway to support various payment methods, ensuring secure transactions for game purchases.
+- Integrate a secure payment gateway to support various payment methods, ensuring secure transactions for game purchases.
 
 ### 3. Game Reviews and Ratings
 
-Enable users to leave reviews and ratings for games.
+- Enable users to leave reviews and ratings for games.
 
 ### 4. Advanced Game Filtering
 
-Implement advanced filters for games, allowing users to sort and search based on genres, release dates, and user ratings.
+- Implement advanced filters for games, allowing users to sort and search based on genres, release dates, and user ratings.
 
 ### 5. Social Features
 
-Introduce social features such as user profiles and friend requests.
+- Introduce social features such as user profiles and friend requests.
 
 ## License
 
@@ -91,11 +91,11 @@ This project is using the MIT License.
 ![chrome_jiBA7HenCE](https://github.com/SandersonHub/Project-3/assets/128574459/931efded-64e4-4fcd-9855-62b2c3e62830)
 ![chrome_qDFYHRHmJl](https://github.com/SandersonHub/Project-3/assets/128574459/bf98404c-07a0-4435-a20e-b827ac258e25)
 
-
-
 ## Credits
 
 Special thanks to the contributors and the gaming community for their support and inspiration. <br>
-Credit to the University of Minnesota Coding Bootcamp for providing the knowledge and resources necessary to develop this project.
+
+Credit to the [University of Minnesota Coding Bootcamp](https://git.bootcampcontent.com/University-of-Minnesota/UofM-VIRT-FSF-PT-04-2023-U-LOLC-ENTG)
+for providing the knowledge and resources necessary to develop this project.
 
 
